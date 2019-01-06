@@ -131,7 +131,8 @@ ul.lista4 li.azul {
       text-align: center;
       /* vertical-align: middle;
       padding-top: auto;
-      padding-bottom: auto; */
+      padding-bottom: auto; 
+      con el padding queda raro*/
       display: flex;
     justify-content: center;
     align-items: center;
