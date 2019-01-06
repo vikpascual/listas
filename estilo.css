@@ -15,7 +15,7 @@ ul {
 }
 ul.lista1 li {
     margin-left: 3%;
-    width: 10%;
+    width: 13%;
     text-align: center;
     float: left;
     height: 30px;
@@ -33,6 +33,108 @@ ul.lista2 li {
     text-align: center;
     margin-left: 3%;
     height: 25px;
-    box-shadow: 3px 3px;
+    box-shadow: 2px 2px;
     padding:5px;
 }
+ul.lista2 li:hover {
+    background: gray;
+    box-shadow: -2px -2px;
+}
+/* ul.lista3 li {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    border: 2px solid;  Aqui he tenido problemas que no he podido solucionar por lo que meto una lista dentro de otra sin clase
+    padding-top: 15px;
+    background: white;
+    margin-top: 7px;
+} */
+ul.auxiliar li {
+    border: 2px solid;
+    width: 20%;
+    height: 300px;
+}
+ul.auxiliar li li {
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    border: 2px solid;
+    padding-top: 15px;
+    background: white;
+    margin-top: 11px;
+}
+ul.lista4 li {
+    text-align: center;
+    width: 15%;
+    height: 25px;
+    padding-top: 11px;
+    float: left;
+    color: #3366CC;
+    background: white;
+    margin-left: 5px;
+}
+ul.lista4 li.azul {
+    background: #3366CC;
+    color: white;
+}
+@font-face {
+    font-family: "MiMenu";
+    src: url("menu.woff");
+  }
+  
+  [class^="icon-"], [class*="icon-"] {
+    margin-right: 3px;
+    font-family: "Mimenu";
+    font-style: normal;
+  }
+  /* No entiendo nah REPASAR */
+  .icon-inicio::before {
+    content: "\e900";
+  }
+  .icon-anadir::before {
+    content: "\ea0a";
+  }
+  .icon-listar::before {
+    content: "\e922";
+  }
+  .icon-borrar::before {
+    content: "\ea0b";
+  }
+  .icon-buscar::before {
+    content: "\e986";
+  }
+  .icon-modificar::before {
+    content: "\e905";
+  }
+  .icon-salir::before {
+    content: "\e9b6";
+  }
+  
+  ul.lista5 li {
+    float:left;
+    margin-right: 2em;
+  }
+  ul.lista6 {
+      /* Repasar esto bastante util*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul.lista6 li {
+      margin-left: 30px;
+      background: white;
+      height: 100px;
+      width: 100px;
+      border: 5px solid;
+      border-radius: 25%;
+      font-size: 300%;
+      text-align: center;
+      /* vertical-align: middle;
+      padding-top: auto;
+      padding-bottom: auto; */
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    /* REPASAR */
+    }
+  
